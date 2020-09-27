@@ -1,0 +1,36 @@
+.face {
+    margin: auto;
+    width: 500px;
+}
+
+.reco {
+    position: absolute;
+    margin-top: 5px;
+    padding-bottom: 40px;
+}
+
+.reco img {
+    width: 500px;
+    height: auto;
+}
+
+@media only screen and (max-width: 640px) {    
+    .face {
+        margin: auto;
+        width: 320px;
+    }
+    .reco img {
+        width: 320px;
+        height: auto;
+    }
+
+}
+
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px crimson inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}

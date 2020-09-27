@@ -1,0 +1,25 @@
+.gap {
+    padding: 100px 0 40px 0;
+}
+
+.box {
+    width: 450px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 640px) {
+    .box {
+        width: 320px;
+        margin: auto;
+    }
+}
+
+.login_msg {
+    color: #e03997; 
+    cursor: pointer;
+}
+
+.register_msg {
+    color: rgb(100, 53, 201);
+    cursor: pointer;
+}

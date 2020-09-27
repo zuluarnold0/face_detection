@@ -1,0 +1,25 @@
+.signout {
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0 5px 5px -5px rgb(133, 129, 129);
+}
+
+.signout span {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #555;
+}
+
+.signout span:hover {
+    cursor: pointer;
+    color: dimgray;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 640px) {    
+    .signout p {
+        font-weight: 400;
+        font-size: 15px;
+    }
+}

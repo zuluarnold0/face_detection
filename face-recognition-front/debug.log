@@ -1,0 +1,3 @@
+[0101/013218.596:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0101/013243.195:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0101/013244.680:ERROR:exception_snapshot_win.cc(99)] thread ID 2116 not found in process

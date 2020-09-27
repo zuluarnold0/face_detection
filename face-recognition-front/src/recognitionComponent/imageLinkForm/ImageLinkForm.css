@@ -1,0 +1,54 @@
+.imageLinkForm {
+    margin: auto;
+    text-align: center;
+}
+
+.imageLinkForm p {
+    font-size: 16px;
+    padding: 20px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.linkForm {
+    margin: auto;
+    width: 600px;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px 2px #ccc;
+    background: linear-gradient(to right, #e03997, rgb(142, 100, 231));
+}
+
+.linkForm input {
+    padding: 5px;
+    width: 70%;
+}
+
+.linkForm button {
+    width: 20%;
+    padding: 5px;
+    color: white;
+    background-color: rgb(142, 100, 231);
+}
+
+.linkForm button:hover {
+    width: 19%;
+    cursor: pointer;
+    background-color: #e03997;
+}
+
+@media only screen and (max-width: 640px) {    
+    .imageLinkForm p {
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .linkForm {
+        margin: auto;
+        width: 320px;
+        padding: 18px;
+    }
+    .linkForm button {
+        padding: 2px;
+    }
+}
