@@ -93,7 +93,7 @@
 </ul>
 
 <em>Download nodejs here:</em> [node js!](https://nodejs.org/en/)<br />
-<em>Download Git here:</em> [git!](https://git-scm.com/)
+<em>Download Git here:</em> [git!](https://git-scm.com/)<br />
 <em>Download postgres database here:</em> [postgres database!](https://www.postgresql.org/download/)<br />
 
 <hr />
